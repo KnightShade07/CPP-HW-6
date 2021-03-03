@@ -40,6 +40,11 @@ bool isPalindrome(const vector<int> & v) {
 	// and front hasn't gone past rear, increment both.
 	for (; *front == *rear && front < rear; ++front, --rear) {
 	}
+
+	if(*front == *rear){
+		return true;
+	}
+	
 	// check positions of front and rear.
 	// if there is a mismatch, it will happen
 	// before front passes rear.
