@@ -9,9 +9,12 @@ using namespace std;
 //Programming Assignment 6 - Iterators
 //Ethen Oliva
 //Instructor: Ken Meerdink
+//GitHub Repository: https://github.com/KnightShade07/CPP-HW-6
 /*
 	Description: This program is for testing your ability to work with iterators/pointers
-	in order to figure out how to get them to work with Palindromes.
+	in order to figure out how to get them to work with palindromes.
+
+	Final Tests Issue: https://github.com/KnightShade07/CPP-HW-6/issues/4
 */
 
 
