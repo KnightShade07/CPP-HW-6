@@ -5,6 +5,16 @@
 
 using namespace std;
 
+//CPW 218
+//Programming Assignment 6 - Iterators
+//Ethen Oliva
+//Instructor: Ken Meerdink
+/*
+	Description: This program is for testing your ability to work with iterators/pointers
+	in order to figure out how to get them to work with Palindromes.
+*/
+
+
 bool isPalindrome(const vector<int> & v);
 
 int main() {
@@ -40,7 +50,9 @@ bool isPalindrome(const vector<int> & v) {
 	// and front hasn't gone past rear, increment both.
 	for (; *front == *rear && front < rear; ++front, --rear) {
 	}
-
+	
+	//Program was missing this if statement. Without this, it would not produce the correct results.
+	//checks to see if the front and rear are the same.
 	if(*front == *rear){
 		return true;
 	}
